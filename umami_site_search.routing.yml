@@ -1,0 +1,7 @@
+umami_site_search:
+  path: '/site-search'
+  defaults:
+    _title: 'Search'
+    _controller: '\Drupal\umami_site_search\Controller\UmamiSiteSearchController::search'
+  requirements:
+    _permission: 'access content'

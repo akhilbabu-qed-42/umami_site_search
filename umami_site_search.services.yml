@@ -1,0 +1,4 @@
+services:
+  umami_site_search.aggregate_paragraph_contents:
+    class: Drupal\umami_site_search\ParagraphsContentAggregator
+    arguments: ['@entity_display.repository']

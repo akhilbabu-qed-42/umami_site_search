@@ -1,0 +1,5 @@
+name: 'umami_site_search'
+type: module
+description: 'Umami site search'
+package: Custom
+core_version_requirement: ^10

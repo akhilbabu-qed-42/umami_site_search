@@ -1,0 +1,13 @@
+<?php
+
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_theme().
+ */
+function umami_site_search_theme() {
+  return [
+    'umami_search_page' => [
+    ],
+  ];
+}

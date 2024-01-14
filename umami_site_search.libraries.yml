@@ -1,0 +1,17 @@
+algolia_libraries:
+  js:
+    https://cdn.jsdelivr.net/npm/algoliasearch@4.22.0/dist/algoliasearch-lite.umd.js : { type: external, minified: true }
+    https://cdn.jsdelivr.net/npm/instantsearch.js@4.63.0/dist/instantsearch.production.min.js : { type: external, minified: true }
+  dependencies:
+    - core/drupalSettings
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/instantsearch.css@8.1.0/themes/reset-min.css: { type: external, minified: true }
+
+site-search:
+  js:
+    js/search.js : {}
+  dependencies:
+    - umami_site_search/algolia_libraries
+    - umami/global
+    - sdc/umami--card
